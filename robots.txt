@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://srdesignerwiseneosco-max.github.io/sks-ai-lab/sitemap.xml
