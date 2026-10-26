@@ -1,32 +1,21 @@
-name: Deploy to GitHub Pages
+name: Publish site (sync main -> gh-pages)
 
+# GitHub Pages serves this site from the gh-pages branch.
+# Every push to main is mirrored to gh-pages, which republishes the site.
 on:
   push:
     branches: [main]
   workflow_dispatch:
 
 permissions:
-  contents: read
-  pages: write
-  id-token: write
-
-concurrency:
-  group: pages
-  cancel-in-progress: false
+  contents: write
 
 jobs:
-  deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+  sync:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/configure-pages@v5
         with:
-          enablement: true
-      - uses: actions/upload-pages-artifact@v3
-        with:
-          path: .
-      - id: deployment
-        uses: actions/deploy-pages@v4
+          fetch-depth: 0
+      - name: Push main to gh-pages
+        run: git push --force origin HEAD:gh-pages
