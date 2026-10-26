@@ -266,3 +266,5 @@ dialog[open]{animation:pop .3s ease}
   *,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}
   .reveal{opacity:1;transform:none}
 }
+.contact-actions{display:flex;flex-wrap:wrap;gap:14px;justify-content:center;max-width:100%}
+@media (max-width:440px){.contact .btn{font-size:.82rem;padding-left:16px;padding-right:16px}}
