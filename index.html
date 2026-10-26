@@ -1,159 +1,223 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="dark">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>sks Ai Lab — AI tools, tutorials &amp; experiments on YouTube</title>
-  <meta name="description" content="sks Ai Lab is a YouTube channel about artificial intelligence: AI tools, hands-on tutorials, AI news and experiments." />
-  <meta name="theme-color" content="#0b0d17" />
+  <title>sks Ai Lab — AI Filmmaking · Cinematic AI Stories on YouTube</title>
+  <meta name="description" content="sks Ai Lab is a YouTube channel for AI filmmaking: cinematic AI movies, sci-fi battles, mythology epics, horror, luxury ads and shorts." />
+  <meta name="theme-color" content="#07080f" />
   <link rel="icon" type="image/svg+xml" href="favicon.svg" />
   <meta property="og:type" content="website" />
-  <meta property="og:title" content="sks Ai Lab — AI on YouTube" />
-  <meta property="og:description" content="AI tools, tutorials, news and experiments. Subscribe to sks Ai Lab on YouTube." />
-  <meta property="og:image" content="og-image.svg" />
+  <meta property="og:title" content="sks Ai Lab — Cinematic AI Stories" />
+  <meta property="og:description" content="AI filmmaking: sci-fi, action, horror, mythology, brand films and shorts. Watch & subscribe on YouTube." />
+  <meta property="og:image" content="https://i.ytimg.com/vi/5Vnapqam9xk/maxresdefault.jpg" />
+  <meta property="og:url" content="https://srdesignerwiseneosco-max.github.io/sks-ai-lab/" />
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="sks Ai Lab — AI on YouTube" />
-  <meta name="twitter:description" content="AI tools, tutorials, news and experiments." />
+  <meta name="twitter:title" content="sks Ai Lab — Cinematic AI Stories" />
+  <meta name="twitter:description" content="AI filmmaking on YouTube: sci-fi, action, horror, mythology, brand films and shorts." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet" />
+  <link rel="preconnect" href="https://i.ytimg.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
+  <script>try{const t=localStorage.getItem('sks-theme');if(t)document.documentElement.dataset.theme=t}catch(e){}</script>
 </head>
 <body>
+  <a class="skip" href="#main">Skip to content</a>
+
   <header class="nav" id="top">
     <div class="container nav-inner">
       <a href="#top" class="brand" aria-label="sks Ai Lab home">
-        <img src="favicon.svg" alt="" width="32" height="32" />
+        <img src="favicon.svg" alt="" width="34" height="34" />
         <span>sks Ai Lab</span>
       </a>
-      <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="nav-links">
-        <span></span><span></span><span></span>
-      </button>
-      <nav id="nav-links" class="nav-links">
-        <a href="#about">About</a>
-        <a href="#topics">Topics</a>
+      <nav id="nav-links" class="nav-links" aria-label="Main">
+        <a href="#featured">Featured</a>
         <a href="#videos">Videos</a>
+        <a href="#features">Categories</a>
+        <a href="#about">About</a>
         <a href="#contact">Contact</a>
-        <a href="https://www.youtube.com/@TheSKSAILab?sub_confirmation=1" class="btn btn-small btn-yt" target="_blank" rel="noopener">Subscribe</a>
       </nav>
+      <div class="nav-actions">
+        <button class="icon-btn theme-toggle" aria-label="Switch colour theme" title="Toggle light / dark">
+          <svg class="i-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.5"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+          <svg class="i-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14.5A8.5 8.5 0 0 1 9.5 4a8.5 8.5 0 1 0 10.5 10.5z"/></svg>
+        </button>
+        <a href="https://www.youtube.com/@TheSKSAILab?sub_confirmation=1" class="btn btn-yt btn-small hide-sm" target="_blank" rel="noopener">Subscribe</a>
+        <button class="icon-btn nav-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="nav-links">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
     </div>
   </header>
 
-  <main>
-    <section class="hero">
+  <main id="main">
+    <!-- HERO -->
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="mesh" aria-hidden="true"><i class="b1"></i><i class="b2"></i><i class="b3"></i></div>
       <canvas id="particles" aria-hidden="true"></canvas>
-      <div class="hero-glow" aria-hidden="true"></div>
-      <div class="container hero-content">
-        <p class="eyebrow reveal">An AI channel on YouTube</p>
-        <h1 class="reveal">Learn, test &amp; explore<br /><span class="grad">the world of AI.</span></h1>
-        <p class="lead reveal">sks Ai Lab breaks down the latest AI tools, walks you through hands-on tutorials, and runs real experiments — so you can actually use AI, not just read about it.</p>
-        <div class="hero-cta reveal">
-          <a href="https://www.youtube.com/@TheSKSAILab?sub_confirmation=1" class="btn btn-yt" target="_blank" rel="noopener">
-            <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="currentColor" d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.6 12 3.6 12 3.6s-7.5 0-9.4.5A3 3 0 0 0 .5 6.2 31 31 0 0 0 0 12a31 31 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c1.9.5 9.4.5 9.4.5s7.5 0 9.4-.5a3 3 0 0 0 2.1-2.1A31 31 0 0 0 24 12a31 31 0 0 0-.5-5.8zM9.6 15.6V8.4l6.3 3.6-6.3 3.6z"/></svg>
-            Subscribe on YouTube
-          </a>
-          <a href="#videos" class="btn btn-ghost">Watch latest videos</a>
+      <div class="grid-floor" aria-hidden="true"></div>
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <p class="chip reveal"><span class="dot"></span> AI Filmmaking · YouTube channel</p>
+          <h1 id="hero-title" class="reveal">Cinematic stories,<br />powered by <span class="grad">AI</span>.<br />
+            <span class="typing-wrap" aria-hidden="true"><span class="typing" id="typing">Sci-Fi Battles</span><span class="caret"></span></span>
+          </h1>
+          <p class="sr-only">Genres: sci-fi battles, mythology epics, horror mysteries, luxury ads, disaster movies and shorts.</p>
+          <p class="lead reveal">sks Ai Lab turns imagination into AI-made cinema — multi-shot movies, epic visual effects, mythology sagas, horror, and luxury brand films.</p>
+          <div class="hero-cta reveal">
+            <a href="https://www.youtube.com/@TheSKSAILab?sub_confirmation=1" class="btn btn-yt" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="currentColor" d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.6 12 3.6 12 3.6s-7.5 0-9.4.5A3 3 0 0 0 .5 6.2 31 31 0 0 0 0 12a31 31 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c1.9.5 9.4.5 9.4.5s7.5 0 9.4-.5a3 3 0 0 0 2.1-2.1A31 31 0 0 0 24 12a31 31 0 0 0-.5-5.8zM9.6 15.6V8.4l6.3 3.6-6.3 3.6z"/></svg>
+              Subscribe on YouTube
+            </a>
+            <a href="#videos" class="btn btn-glass">▶ Browse videos</a>
+          </div>
+        </div>
+        <div class="hero-visual reveal" aria-hidden="true">
+          <div class="tilt" id="tilt">
+            <div class="stack s3"><img data-thumb="PwADwnbOELY" alt="" /></div>
+            <div class="stack s2"><img data-thumb="0xodN6TWsQ0" alt="" /></div>
+            <div class="stack s1">
+              <img data-thumb="5Vnapqam9xk" alt="" />
+              <span class="play-lg"></span>
+              <span class="glass-tag">● NEW · Latest upload</span>
+            </div>
+          </div>
         </div>
       </div>
-      <a href="#about" class="scroll-hint" aria-label="Scroll to About"><span></span></a>
+      <a href="#stats" class="scroll-hint" aria-label="Scroll down"><span></span></a>
     </section>
 
-    <section id="about" class="section">
-      <div class="container two-col">
+    <!-- STATS -->
+    <section id="stats" class="stats-strip" aria-label="Channel stats">
+      <div class="container stats">
+        <div class="stat glass reveal"><strong data-count="126">126</strong><span>Subscribers</span></div>
+        <div class="stat glass reveal"><strong data-count="51">51</strong><span>Videos published</span></div>
+        <div class="stat glass reveal"><strong data-count="8" id="stat-cats">8</strong><span>Content categories</span></div>
+        <div class="stat glass reveal"><strong>2</strong><span>Languages · English &amp; Hindi</span></div>
+      </div>
+      <p class="container stats-note">Channel stats as shown on YouTube, Oct 2026.</p>
+    </section>
+
+    <!-- FEATURED -->
+    <section id="featured" class="section" aria-labelledby="featured-title">
+      <div class="container featured">
+        <div class="featured-player reveal">
+          <button class="lazy-yt" id="featured-player" aria-label="Play featured video">
+            <img id="featured-thumb" alt="" loading="lazy" />
+            <span class="play-lg"></span>
+          </button>
+        </div>
+        <div class="featured-info reveal">
+          <p class="eyebrow">Featured · Latest upload</p>
+          <h2 id="featured-title">Loading…</h2>
+          <p class="muted" id="featured-cat"></p>
+          <div class="featured-actions">
+            <button class="btn" id="featured-play">▶ Play here</button>
+            <a class="btn btn-glass" id="featured-yt" target="_blank" rel="noopener">Watch on YouTube ↗</a>
+          </div>
+          <p class="hint">Click-to-play uses privacy-enhanced youtube-nocookie.com — nothing loads from YouTube until you press play.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- VIDEOS -->
+    <section id="videos" class="section section-alt" aria-labelledby="videos-title">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Video library</p>
+          <h2 id="videos-title">Pick a category. Press play.</h2>
+          <p class="muted">Every card below is a real upload from the channel — tap a thumbnail to watch it right here.</p>
+        </div>
+        <div class="toolbar reveal">
+          <div class="pills" id="pills" role="toolbar" aria-label="Filter videos by category"></div>
+          <label class="search glass">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+            <span class="sr-only">Search videos</span>
+            <input type="search" id="search" placeholder="Search titles…" autocomplete="off" />
+          </label>
+        </div>
+        <p class="result-count" id="result-count" aria-live="polite"></p>
+        <div class="vgrid" id="vgrid"></div>
+        <div class="center"><button class="btn btn-glass" id="load-more" hidden>Show more</button></div>
+        <noscript><p class="muted">Enable JavaScript to browse videos, or visit <a class="link" href="https://www.youtube.com/@TheSKSAILab/videos">the channel on YouTube</a>.</p></noscript>
+      </div>
+    </section>
+
+    <!-- FEATURES -->
+    <section id="features" class="section" aria-labelledby="features-title">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">What you get</p>
+          <h2 id="features-title">Detailed content categories</h2>
+          <p class="muted">Eight genres, one style: multi-shot AI cinema with realistic VFX and dynamic camera work.</p>
+        </div>
+        <div class="fgrid" id="fgrid"></div>
+
+        <div class="perks">
+          <div class="perk glass reveal"><span>🎬</span><h3>Multi-shot storytelling</h3><p>Not single clips — full stories with scenes, pacing and a cinematic arc.</p></div>
+          <div class="perk glass reveal"><span>💥</span><h3>Epic visual effects</h3><p>Explosions, giant creatures, collapsing glaciers — VFX at blockbuster scale.</p></div>
+          <div class="perk glass reveal"><span>🎥</span><h3>Dynamic camera work</h3><p>Sweeping drone-style shots, close-ups and action framing, all AI-generated.</p></div>
+          <div class="perk glass reveal"><span>🌐</span><h3>English &amp; Hindi</h3><p>Global sci-fi and action alongside Hindi mythology and drama.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA BAND -->
+    <section class="cta-band" aria-label="Subscribe">
+      <div class="container cta-inner reveal">
+        <div>
+          <h2>Fresh AI films land regularly.</h2>
+          <p>Subscribe and turn on 🔔 so you never miss the next premiere.</p>
+        </div>
+        <a href="https://www.youtube.com/@TheSKSAILab?sub_confirmation=1" class="btn btn-light" target="_blank" rel="noopener">Subscribe to @TheSKSAILab</a>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section" aria-labelledby="about-title">
+      <div class="container about">
+        <div class="about-avatar reveal">
+          <img id="avatar" src="https://yt3.googleusercontent.com/_nbFNS0jsnshGh96Lv9xirxhGJy8XWHUM945uojcL_zhfCTTLWwWBJKwzAX8uCZPLKBac6dV=s240-c-k-c0x00ffffff-no-rj" alt="sks Ai Lab channel avatar" width="160" height="160" loading="lazy" referrerpolicy="no-referrer" />
+          <div class="ring"></div>
+        </div>
         <div class="reveal">
           <p class="eyebrow">About the channel</p>
-          <h2>AI, explained by trying it.</h2>
-        </div>
-        <div class="reveal">
-          <p>sks Ai Lab is a YouTube channel for anyone curious about artificial intelligence — from beginners taking their first steps to builders looking for the next useful tool.</p>
-          <p>Every video aims to be practical: what a tool does, how to use it step by step, where it shines and where it falls short. No hype, just hands-on exploration.</p>
-          <p class="placeholder-note">✎ Placeholder copy: feel free to replace with your own channel story and upload schedule.</p>
-        </div>
-      </div>
-      <div class="container stats reveal">
-        <div class="stat"><strong>01</strong><span>Hands-on, practical videos</span></div>
-        <div class="stat"><strong>02</strong><span>Honest tool reviews</span></div>
-        <div class="stat"><strong>03</strong><span>Beginner-friendly explanations</span></div>
-      </div>
-    </section>
-
-    <section id="topics" class="section section-alt">
-      <div class="container">
-        <div class="section-head reveal">
-          <p class="eyebrow">Topics covered</p>
-          <h2>What you'll find on the channel.</h2>
-        </div>
-        <div class="grid grid-4">
-          <article class="card reveal">
-            <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M14.7 6.3a4 4 0 0 0-5.4 5.4L3 18l3 3 6.3-6.3a4 4 0 0 0 5.4-5.4l-2.5 2.5-2.4-.6-.6-2.4z"/></svg></div>
-            <h3>AI Tools</h3>
-            <p>Reviews and walkthroughs of the newest AI apps, assistants and creative tools — and which are worth your time.</p>
-          </article>
-          <article class="card reveal">
-            <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="4" width="18" height="13" rx="2"/><path d="M10 8.5v5l4-2.5z"/><path d="M8 21h8"/></svg></div>
-            <h3>Tutorials</h3>
-            <p>Step-by-step guides on prompting, automation and building with AI, from first click to finished result.</p>
-          </article>
-          <article class="card reveal">
-            <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 5h13v14H6a2 2 0 0 1-2-2z"/><path d="M17 9h3v8a2 2 0 0 1-2 2"/><path d="M8 9h5M8 13h5"/></svg></div>
-            <h3>AI News</h3>
-            <p>The biggest AI releases and announcements, explained clearly so you know what actually matters.</p>
-          </article>
-          <article class="card reveal">
-            <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M9 3h6M10 3v6L4.5 18.5A1.7 1.7 0 0 0 6 21h12a1.7 1.7 0 0 0 1.5-2.5L14 9V3"/><path d="M7 15h10"/></svg></div>
-            <h3>Experiments</h3>
-            <p>Putting AI to the test: challenges, comparisons and creative projects to see what it can really do.</p>
-          </article>
+          <h2 id="about-title">Where AI transforms imagination into cinema.</h2>
+          <p class="muted">sks Ai Lab creates AI-powered movies, luxury commercials, action, thriller, horror, mystery, fantasy, mythology, sci-fi and epic storytelling — brought to life with cinematic visuals, realistic VFX, dynamic camera work and professional multi-shot filmmaking.</p>
+          <p class="muted">Every video is crafted to entertain, inspire, and show what AI-powered cinema can do.</p>
+          <div class="tags"><span>AI Filmmaking</span><span>Cinematic Stories</span><span>Epic VFX</span><span>Luxury Ads</span><span>Mythology</span></div>
         </div>
       </div>
     </section>
 
-    <section id="videos" class="section">
-      <div class="container">
-        <div class="section-head reveal">
-          <p class="eyebrow">Latest videos</p>
-          <h2>Fresh from the channel.</h2>
-          <p class="placeholder-note">✎ Placeholder cards: replace titles/thumbnails with real videos (or embed them).</p>
-        </div>
-        <div class="grid grid-3">
-          <a class="card video reveal" href="https://www.youtube.com/@TheSKSAILab/videos" target="_blank" rel="noopener">
-            <div class="thumb t1"><span class="play" aria-hidden="true"></span><span class="badge">AI Tools</span></div>
-            <h3>Video title goes here <em>(placeholder)</em></h3>
-            <p>Short description of the video. Replace with a real upload.</p>
-          </a>
-          <a class="card video reveal" href="https://www.youtube.com/@TheSKSAILab/videos" target="_blank" rel="noopener">
-            <div class="thumb t2"><span class="play" aria-hidden="true"></span><span class="badge">Tutorial</span></div>
-            <h3>Video title goes here <em>(placeholder)</em></h3>
-            <p>Short description of the video. Replace with a real upload.</p>
-          </a>
-          <a class="card video reveal" href="https://www.youtube.com/@TheSKSAILab/videos" target="_blank" rel="noopener">
-            <div class="thumb t3"><span class="play" aria-hidden="true"></span><span class="badge">Experiment</span></div>
-            <h3>Video title goes here <em>(placeholder)</em></h3>
-            <p>Short description of the video. Replace with a real upload.</p>
-          </a>
-        </div>
-        <div class="center reveal"><a class="btn btn-ghost" href="https://www.youtube.com/@TheSKSAILab/videos" target="_blank" rel="noopener">See all videos on YouTube →</a></div>
-      </div>
-    </section>
-
-    <section id="contact" class="section section-alt">
-      <div class="container contact reveal">
-        <p class="eyebrow">Contact</p>
-        <h2>Collabs, sponsorships or ideas?</h2>
-        <p class="lead">Have an AI tool you'd like reviewed, a video idea, or a business enquiry? Drop an email.</p>
-        <a class="btn" href="mailto:santoshsrivastav12345@gmail.com">santoshsrivastav12345@gmail.com</a>
-        <p class="small-muted">Or say hi in the comments on <a class="link" href="https://www.youtube.com/@TheSKSAILab" target="_blank" rel="noopener">YouTube</a>.</p>
+    <!-- CONTACT -->
+    <section id="contact" class="section section-alt" aria-labelledby="contact-title">
+      <div class="container contact glass reveal">
+        <p class="eyebrow">Contact · Business inquiries</p>
+        <h2 id="contact-title">Want an AI film for your brand?</h2>
+        <p class="muted">Brand films, collaborations, sponsorships or story ideas — send an email.</p>
+        <a class="btn" href="mailto:santoshsrivastav12345@gmail.com">✉ santoshsrivastav12345@gmail.com</a>
+        <p class="hint">Or leave a comment on any video on <a class="link" href="https://www.youtube.com/@TheSKSAILab" target="_blank" rel="noopener">YouTube</a>.</p>
       </div>
     </section>
   </main>
 
   <footer class="footer">
     <div class="container footer-inner">
-      <a href="#top" class="brand"><img src="favicon.svg" alt="" width="24" height="24" /><span>sks Ai Lab</span></a>
+      <a href="#top" class="brand"><img src="favicon.svg" alt="" width="26" height="26" /><span>sks Ai Lab</span></a>
       <p>© 2026 sks Ai Lab. All rights reserved.</p>
       <a href="https://www.youtube.com/@TheSKSAILab" class="link" target="_blank" rel="noopener">YouTube ↗</a>
     </div>
   </footer>
+
+  <dialog id="player" aria-label="Video player">
+    <div class="player-box">
+      <button class="icon-btn close" id="player-close" aria-label="Close player">✕</button>
+      <div class="player-frame" id="player-frame"></div>
+      <div class="player-meta"><p id="player-title"></p><a id="player-yt" class="link" target="_blank" rel="noopener">Open on YouTube ↗</a></div>
+    </div>
+  </dialog>
 
   <script src="script.js"></script>
 </body>

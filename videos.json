@@ -1,0 +1,464 @@
+{
+ "channel": {
+  "name": "sks Ai Lab",
+  "handle": "@TheSKSAILab",
+  "url": "https://www.youtube.com/@TheSKSAILab",
+  "subscribers": "126",
+  "videoCount": "51",
+  "statsAsOf": "2026-10-26",
+  "avatar": "https://yt3.googleusercontent.com/_nbFNS0jsnshGh96Lv9xirxhGJy8XWHUM945uojcL_zhfCTTLWwWBJKwzAX8uCZPLKBac6dV=s240-c-k-c0x00ffffff-no-rj"
+ },
+ "featured": "5Vnapqam9xk",
+ "categories": [
+  {
+   "id": "scifi",
+   "name": "Sci-Fi & Robots",
+   "icon": "🤖",
+   "desc": "Giant robots, alien invasions and machine wars rendered as cinematic AI blockbusters.",
+   "covers": [
+    "Robot & Transformer battles",
+    "Alien encounters",
+    "Futuristic world-building"
+   ],
+   "count": 3
+  },
+  {
+   "id": "disaster",
+   "name": "Disaster & Monsters",
+   "icon": "🌋",
+   "desc": "End-of-the-world spectacles, giant beasts and zombie outbreaks with large-scale AI visual effects.",
+   "covers": [
+    "Natural disasters",
+    "Giant monster attacks",
+    "Zombie & doomsday stories"
+   ],
+   "count": 4
+  },
+  {
+   "id": "action",
+   "name": "Action & Thriller",
+   "icon": "⚔️",
+   "desc": "High-stakes missions, cops vs. criminals, ninjas and fight-night revenge — multi-shot action stories.",
+   "covers": [
+    "Crime & mafia thrillers",
+    "Martial arts & ninja battles",
+    "Revenge & fight stories"
+   ],
+   "count": 5
+  },
+  {
+   "id": "horror",
+   "name": "Horror & Mystery",
+   "icon": "👻",
+   "desc": "Haunted trains, cursed lifts and locked rooms — short AI horror films built on suspense.",
+   "covers": [
+    "Haunted places",
+    "Psychological mystery",
+    "Trapped-in-time thrillers"
+   ],
+   "count": 3
+  },
+  {
+   "id": "mythology",
+   "name": "Mythology & History",
+   "icon": "🔱",
+   "desc": "Epic retellings of Indian mythology and ancient civilisations — gods, emperors and lost empires.",
+   "covers": [
+    "Maa Durga & Mahakali sagas (Hindi)",
+    "Ancient Egypt & Mesopotamia",
+    "Legendary conquerors"
+   ],
+   "count": 6
+  },
+  {
+   "id": "ads",
+   "name": "AI Ads & Brand Films",
+   "icon": "✨",
+   "desc": "Concept commercials and luxury brand films made with AI — food, drinks, fashion and festive stories.",
+   "covers": [
+    "Food & beverage spots",
+    "Luxury / fashion films",
+    "Festive brand stories"
+   ],
+   "count": 7
+  },
+  {
+   "id": "music",
+   "name": "Music & Performance",
+   "icon": "🎶",
+   "desc": "Music-driven visuals: fountain shows, title-track hooks and rhythmic AI performances.",
+   "covers": [
+    "Music visualisers",
+    "Soundtrack hooks",
+    "Live-performance style pieces"
+   ],
+   "count": 2
+  },
+  {
+   "id": "shorts",
+   "name": "Shorts & Reels",
+   "icon": "⚡",
+   "desc": "Quick vertical reels — fights, heists, concerts and drum performances in under a minute.",
+   "covers": [
+    "Action reels",
+    "Music & drum performances",
+    "Ad-style shorts"
+   ],
+   "count": 14
+  }
+ ],
+ "videos": [
+  {
+   "id": "5Vnapqam9xk",
+   "title": "DEATH OF THE GLACIER ⚡ | The Ultimate Ice Disaster/ GLACIER DESTRUCTION 💥 | The Beginning of the End",
+   "category": "disaster",
+   "duration": "8:58",
+   "type": "video",
+   "popular": false
+  },
+  {
+   "id": "XGY6mjwk1fw",
+   "title": "🔥 SITAR MAGIC! 🌊 Water Dances to Music | Spectacular Fountain Show 🎶",
+   "category": "music",
+   "duration": "3:52",
+   "type": "video",
+   "popular": false
+  },
+  {
+   "id": "chwRmQTCsVE",
+   "title": "Ninja Warriors ( The Ultimate Battle For The City's Survival)/ NINJAS: RISE OF THE EVIL TRANSFORMER",
+   "category": "action",
+   "duration": "7:09",
+   "type": "video",
+   "popular": false
+  },
+  {
+   "id": "Fp-O-7vzD4A",
+   "title": "🔥 माँ काली का विनाशक रूप! 😈 रक्तबीज का महावध | महाकाली का प्रचंड क्रोध 🔱 #Mahakali",
+   "category": "mythology",
+   "duration": "3:57",
+   "type": "video",
+   "popular": false
+  },
+  {
+   "id": "kdaGh_Ny2jk",
+   "title": "1. PIZZA WARS — The Ultimate Food Battle/ BATTLE FOR THE LAST BITE!",
+   "category": "ads",
+   "duration": "6:20",
+   "type": "video",
+   "popular": false
+  },
+  {
+   "id": "chUBBfotUw4",
+   "title": "DOOMSDAY — THE FINAL DAY OF EARTH/ ARMAGEDDON — THE DAY EARTH DIED",
+   "category": "disaster",
+   "duration": "15:02",
+   "type": "video",
+   "popular": false
+  },
+  {
+   "id": "DlwnXe7-Y-U",
+   "title": "ALIENS ATTACK THE PYRAMIDS! 🤖🔥 | THE LAST GUARDIANS OF GIZA/ ALIENS VS ROBOTS!",
+   "category": "scifi",
+   "duration": "8:07",
+   "type": "video",
+   "popular": false
+  },
+  {
+   "id": "NtpJ6P3oc_I",
+   "title": "GIANT BURGER EXPLODES INTO A TASTE REVOLUTION! 🍔 |TASTE EXPLODES BEYOND LIMITS! 🍔💥 |",
+   "category": "ads",
+   "duration": "5:33",
+   "type": "video",
+   "popular": false
+  },
+  {
+   "id": "Zo7FJQvX-c4",
+   "title": "MACHINES RISE. WORLDS COLLIDE. 🔥 | TITANS AWAKEN/ THE MEGA ROBOT HAS AWAKENED! 🤖🔥",
+   "category": "scifi",
+   "duration": "7:41",
+   "type": "video",
+   "popular": false
+  },
+  {
+   "id": "PwADwnbOELY",
+   "title": "TRANSFORMERS: RISE OF THE FIRST TITAN 🔥 THE DEADLIEST ROBOT WAR BEGINS!",
+   "category": "scifi",
+   "duration": "13:04",
+   "type": "video",
+   "popular": true
+  },
+  {
+   "id": "IqcX8OT-2Ww",
+   "title": "PEPSI — THE DRINK THAT BREAKS REALITY! 🥤🔥/PEPSI — Impossible Made Refreshing!",
+   "category": "ads",
+   "duration": "1:51",
+   "type": "video",
+   "popular": true
+  },
+  {
+   "id": "IKQ_466_ycE",
+   "title": "💀 ACP राठौड़ का FINAL ENCOUNTER | लुटेरों की आखिरी रात/🔥 ACP RATHOD: THE FINAL JUSTICE |",
+   "category": "action",
+   "duration": "13:52",
+   "type": "video",
+   "popular": false
+  },
+  {
+   "id": "yG82WCd3aR4",
+   "title": "🥇 माँ के हाथ का अचार... एक बार खाया तो कभी नहीं भूलोगे! ❤️🥭/जब अचार नहीं... एहसास परोसा जाए! 🥭✨",
+   "category": "ads",
+   "duration": "1:51",
+   "type": "video",
+   "popular": false
+  },
+  {
+   "id": "0xodN6TWsQ0",
+   "title": "🔥 महिषासुर का अंत 🔥 | 🚩 माँ दुर्गा का प्रकोप 🚩/महिषासुर मर्दिनी की महागाथा",
+   "category": "mythology",
+   "duration": "10:48",
+   "type": "video",
+   "popular": true
+  },
+  {
+   "id": "e9ns9Z9ghWM",
+   "title": "One Chocolate. Endless Smiles. A Magical Diwali./The Sweetest Diwali Surprise Ever! 🍫✨",
+   "category": "ads",
+   "duration": "3:20",
+   "type": "video",
+   "popular": false
+  },
+  {
+   "id": "N5bifjqm4Oo",
+   "title": "The Addiction of Elegance/Luxury Beyond Desire",
+   "category": "ads",
+   "duration": "4:11",
+   "type": "video",
+   "popular": false
+  },
+  {
+   "id": "25FWnrL0kN8",
+   "title": "Power Has a New Signature/The Beast in a Business Suit.",
+   "category": "ads",
+   "duration": "2:30",
+   "type": "video",
+   "popular": false
+  },
+  {
+   "id": "NZnNKrbi-qI",
+   "title": "DEADLIEST GIANT MONSTER/THE BEAST THAT DESTROYED A CITY",
+   "category": "disaster",
+   "duration": "10:03",
+   "type": "video",
+   "popular": true
+  },
+  {
+   "id": "WgrZTLs7ywg",
+   "title": "🥊 REVENGE( NO MERCY) IN THE RING \"He Took Everything. Tonight, He Pays.\" 🔥",
+   "category": "action",
+   "duration": "2:00",
+   "type": "video",
+   "popular": false
+  },
+  {
+   "id": "UJ56Bb50ZEo",
+   "title": "Hooks Song of \"WAR ON THE DRUG MAFIA \"One Man's Mission.",
+   "category": "music",
+   "duration": "2:27",
+   "type": "video",
+   "popular": false
+  },
+  {
+   "id": "wImjKWqTTKM",
+   "title": "WAR ON THE DRUG MAFIA \"One Man's Mission. One City's Last Hope\"/One Man. One Mission. One War.",
+   "category": "action",
+   "duration": "9:01",
+   "type": "video",
+   "popular": false
+  },
+  {
+   "id": "jTuWgL3q94I",
+   "title": "THE LOCKED FLAT...\"/\"THE DOOR NEVER OPENED AGAIN\"/\"TRAPPED IN FLAT 2208\"",
+   "category": "horror",
+   "duration": "9:02",
+   "type": "video",
+   "popular": false
+  },
+  {
+   "id": "0mksBJH8EGc",
+   "title": "Zombie Attack in the City/Deadly Zombie War.",
+   "category": "disaster",
+   "duration": "4:44",
+   "type": "video",
+   "popular": false
+  },
+  {
+   "id": "-RWmESKvSR0",
+   "title": "1-The Abandoned Haunted  Train That Never Reached Destination/Family Trapped Inside Haunted Train .",
+   "category": "horror",
+   "duration": "6:59",
+   "type": "video",
+   "popular": false
+  },
+  {
+   "id": "6BIOZTOg8WM",
+   "title": "“HAUNTED LIFT\" some floors are never meant to be reached.",
+   "category": "horror",
+   "duration": "12:32",
+   "type": "video",
+   "popular": false
+  },
+  {
+   "id": "M1vKDzVOsxo",
+   "title": "Sikandar : The Iron Storm /The Emperor of Fire & Blood",
+   "category": "mythology",
+   "duration": "6:44",
+   "type": "video",
+   "popular": false
+  },
+  {
+   "id": "RXEt-bKf46c",
+   "title": "THE KING OF DESTRUCTION/FALL OF MESOPOTAMIA/CIVILIZATION DESTROYED.",
+   "category": "mythology",
+   "duration": "4:55",
+   "type": "video",
+   "popular": false
+  },
+  {
+   "id": "7ZSfFFpE7So",
+   "title": "#entertainments#Funl# Short movie#Ancient History#Egypt pyramid#Efyptian King#Pyramid Builders",
+   "category": "mythology",
+   "duration": "9:21",
+   "type": "video",
+   "popular": false
+  },
+  {
+   "id": "57jMPiQcLTU",
+   "title": "entertainment#short movie# thriller vibes#mission mode#war zone#hollywood style #battle ready",
+   "category": "action",
+   "duration": "4:55",
+   "type": "video",
+   "popular": false
+  },
+  {
+   "id": "CGt6SetP--I",
+   "title": "#entertainmentl# Short movie#AncientCivilization#DeepSeaExploration#HistoryMystery",
+   "category": "mythology",
+   "duration": "17:06",
+   "type": "video",
+   "popular": false
+  },
+  {
+   "id": "TxmlQrj0Tj0",
+   "title": "#entertainments #reel #SlapFight #SlapChallenge#ONE SLAP = KNOCKOUT",
+   "category": "shorts",
+   "duration": null,
+   "type": "short",
+   "popular": false
+  },
+  {
+   "id": "zPfoY-_B49Y",
+   "title": "#entertainments# LiveMusic#RockConcert#ConcertNight#“UNREAL PERFORMANCE",
+   "category": "shorts",
+   "duration": null,
+   "type": "short",
+   "popular": false
+  },
+  {
+   "id": "eRgVZ3FAt5k",
+   "title": "#entertainments #shortvideo #reel trendyreel#electric fire drum performance",
+   "category": "shorts",
+   "duration": null,
+   "type": "short",
+   "popular": true
+  },
+  {
+   "id": "5r7wJLLmVhc",
+   "title": "#entertainments #reel #tabla #trendy performance",
+   "category": "shorts",
+   "duration": null,
+   "type": "short",
+   "popular": true
+  },
+  {
+   "id": "Nyw7DVwHeik",
+   "title": "# Entertainment#Fight#Reel #Action#THE ROOFTOP WAR",
+   "category": "shorts",
+   "duration": null,
+   "type": "short",
+   "popular": false
+  },
+  {
+   "id": "miF6NyvTRpg",
+   "title": "#entertainments #fun #shorts #reel #gangster war",
+   "category": "shorts",
+   "duration": null,
+   "type": "short",
+   "popular": false
+  },
+  {
+   "id": "410Rto7YOrY",
+   "title": "# Entertainment# Action# Robbery # Reel # Fight# Action packed  Trailor",
+   "category": "shorts",
+   "duration": null,
+   "type": "short",
+   "popular": false
+  },
+  {
+   "id": "iW4cSthNgS4",
+   "title": "#entertainments #film #advertisement #cadbury #shorts #reel",
+   "category": "shorts",
+   "duration": null,
+   "type": "short",
+   "popular": false
+  },
+  {
+   "id": "Wa6-lCnSCRY",
+   "title": "# Entertainment# Action# Robbery # Reel # Fight# Action packed heist in urban chaos and Mess with St",
+   "category": "shorts",
+   "duration": null,
+   "type": "short",
+   "popular": false
+  },
+  {
+   "id": "bWUMfydPy70",
+   "title": "# Entertainment# Movie# Romantic# shorts  # Reel #A charming dance at an elegant event",
+   "category": "shorts",
+   "duration": null,
+   "type": "short",
+   "popular": false
+  },
+  {
+   "id": "klGNxXHUZNw",
+   "title": "# Entertainment# Battle# Robbery # Reel #Samundri Lutere Pirate of the Seas",
+   "category": "shorts",
+   "duration": null,
+   "type": "short",
+   "popular": false
+  },
+  {
+   "id": "jZbxYDNkAD4",
+   "title": "#entertainment #gaming  # The Final Run to Glory”",
+   "category": "shorts",
+   "duration": null,
+   "type": "short",
+   "popular": false
+  },
+  {
+   "id": "gIo0CTXb3aI",
+   "title": "# FIGHT # ENTERTAIMENT # REEL # Muddy battle in the alley #entertainments",
+   "category": "shorts",
+   "duration": null,
+   "type": "short",
+   "popular": false
+  },
+  {
+   "id": "C2Mpa7DDjsU",
+   "title": "#entertainments # boxing practice",
+   "category": "shorts",
+   "duration": null,
+   "type": "short",
+   "popular": false
+  }
+ ]
+}
